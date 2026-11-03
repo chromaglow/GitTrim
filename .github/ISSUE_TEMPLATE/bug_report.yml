@@ -1,0 +1,37 @@
+name: Bug report
+description: Something in GitTrim doesn't work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 142, Firefox 145, Safari 19...
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11, macOS 26, Ubuntu 24.04...
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: Source file type
+      description: The format and roughly how long it is. Please don't attach copyrighted audio.
+      placeholder: mp3, 3 minutes
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors
+      description: Press F12, open the Console tab, and paste any red errors.
+      render: text
