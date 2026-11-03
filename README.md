@@ -65,6 +65,10 @@ git clone https://github.com/chromaglow/GitTrim.git
 - [How it works and why it's built this way](docs/ARCHITECTURE.md)
 - [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
+## Origin
+
+GitTrim started as the clip tool for [Push it](https://github.com/chromaglow/push-it), a Claude Code plugin that plays a sound when you type `push it`. Use GitTrim to cut your own clip for it.
+
 ## License
 
 [MIT](LICENSE) © Ezra Shively-Stjarna.
